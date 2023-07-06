@@ -1,0 +1,33 @@
+ul{
+   border-radius: 5em; padding: 1em; background: #dcf1fb;
+  
+}
+.mid{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-left: -50%;
+    text-align: left;
+}
+.text{
+    position: absolute;
+    top: 10%;
+    left: 82%;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-left: -50%;
+    text-align: left;
+}
+.calender{
+    position: absolute;
+    top: 20%;
+    left: 118%;
+    margin-top: 0.5em;
+    margin-left: -50%;
+}
+textarea{
+    width: 30%;
+    height:22%;
+}

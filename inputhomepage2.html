@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>document</title>
+    </head>
+    <body>
+        <form action="">
+            <input type="tel" name="" id="" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+            <!-- 패턴 에 맞는 식에 같은지 보는 것 -->
+            <div>
+                아이디
+                <input 
+                type="text" name="" id="" autocomplete="on" autofocus required  maxlength="15"/>
+            </div>
+            <div>
+                비밀번호
+                <input type="password" name="" id="" required maxlength="12"/>
+            </div>
+            <div>
+                개인정보
+                <input 
+                type="text"
+                name=""
+                id=""
+                value=""
+                maxlength="8"
+                style="width: 80%;"
+                placeholder="010-0000-0000형식으로 입력하세여"
+                required
+                />
+            </div>
+            <div>
+                <!-- readonly는 읽기만 가능 수정불가 -->
+                <input type="text" name="" id="" value="ABC" readonly>
+                <input type="text" name="" id="" value="ABC" >
+                <!-- disable은 읽기와 복사 모두불가 -->
+                <input type="text" name="" id="" value="ABC" disabled>
+                <input type="text" name="" id="" value="ABC" maxlength="8">
+            </div>
+            <!-- div는 화면의 레이아웃(구도)를 만들기좋은 명령어 -->
+                <input type="submit" value="save">
+        </form>
+        <script></script>
+    </body>
+</html>

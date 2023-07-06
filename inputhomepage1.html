@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>document</title>
+    </head>
+    <body>
+        <!-- 동료테그가 없는 input타입 -->
+        <input type="button" value="저장">
+        <!-- 버튼모양 생성 이름은 저장 -->
+        <br>
+        <h3>선호하는 언어는?</h3>
+        <!-- id 유일한값 동일한값x -->
+        <!-- name은 같은name끼리 하나의 그룹으로 묶어주는 역활 -->
+        <input type="checkbox" name="1" value="html" id="html">
+        <label for="html">html</label>
+        <!-- 체크박스타입의 그룹이름은 1 체크박스이름은html id도 html label 있으면 이름에다 마우스클릭해도 체크됨 -->
+        <label><input type="checkbox" value="css" name="1">css</label>
+        <!-- 라벨안에 인풋을 넣어도 위에랑 같은효과임 -->
+        <input type="checkbox" value="css1" name="1" id="">
+        <label for="">css1</label>
+        <h3>선호하는 분야는?</h3>
+        <label><input type="checkbox" value="ai" name="2">인공지능</label>
+        <label><input type="checkbox" value="blockchain" name="2">블록체인</label>
+        <br>
+        <input type="color" name="" id="" value="">
+        <!-- 사용자가 선택한 색깔이 value 에 들어옴 -->
+        <input type="date" name="" id="">
+        <!-- 날짜 -->
+        <br>
+        <input type="datetime-local" name="" id="">
+        <!-- 날짜+현재위치의 시간 -->
+        <br>
+        <input type="email" name="" id="">
+        <!-- 이메일 입력 -->
+        <br>
+        <input type="file" name="" id="">
+        <!-- 파일 첨부 -->
+        <br>
+        <input type="hidden" name="" id="userid"  value="개발자용">
+        <input type="image" src="https://ssl.pstatic.net/melona/libs/1455/1455022/5696e085051bacd56af0_20230630110122409.jpg" 
+        style="width: 200px; height: auto;" alt="">
+        <br>
+        <!-- 버튼누를수있는 이미지를 만듬 -->
+        <input type="month" name="" id="">
+        <br>
+        <input type="number" name="" id="" min="0" max="100" step="10">
+        <!-- 숫자를 클릭하거나 휠로 조절 이건 10 단위로 커지고 작아짐 -->
+        <br>
+        <input type="password" name="" id="">
+        <!-- 비번 입력 -->
+        <br>
+        <h3>선호하는 언어는?</h3>
+        <!-- radio 는 체크박스와달리 1개만 선택 가능  -->
+        <input type="radio" name="r1" value="html" id="html" checked >
+        <label for="html">html</label>
+        <!-- checked 는 처음사이트에들어올떄 체크되있는상태로 시작하고프면 checked 넣으면됨 -->
+        
+        <label><input type="radio" value="css" name="r1">css</label>
+
+        <input type="range" name="" id="vol" min="0" max="50" value="5">
+        <!-- 주로 음량 조절용 -->
+        <br> 
+        <input type="search" name="" id="">
+        <!-- 검색시 사용 -->
+         <br>
+         <input type="tel" name="" id="">
+         <!-- 전화번호 -->
+         <br>
+         <input type="text" name="" id="">
+         <!-- 모든 문자 받을수있다 -->
+         <br>
+         <h3>사용자정보</h3>
+         <form action="">
+            <input type="email" name="" id="" required>
+            <input type="submit" value="저장" >
+            <!-- submit은 form에만 사용, required는 무조건 값을 입력해야함, action에는 urL을 넣을수있는데 
+                submit칸에 값을 입력하고 저장을 누르면 urL로 입력값을 보내줌  -->
+         </form>
+         <br>
+         <input type="time" name="" id="">
+         <br>
+         <input type="url" name="" id="">
+         <br>
+         <input type="week" name="" id="">
+        <script></script>
+    </body>
+</html>

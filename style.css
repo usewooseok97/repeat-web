@@ -1,6 +1,30 @@
 .color-primary {    
-    color:yellowgreen;
+    color:hwb(80 20% 20%);
 }
+/* .{}클래스명으로 선택적용방식 */
 .font-50{
     font-size: 50px;
 }
+/* .classname>자식클래스 선택 */
+.tb>thead>tr>td{
+    border: 1px solid #000;
+}
+/* 하위클래스 선택 */
+.tbb td{
+    border: 1px solid #000;
+}
+*{} /*전체 선택방식*/
+ /*태그선택방식*/
+ p{
+    background-color: brown;
+    color: aliceblue;
+ }
+ /* #idname{} 아이디 지정 방식 */
+ #p1{
+    color: blue;
+    background-color: silver;
+ }
+ #p2{
+    color: fuchsia;
+    background-color: silver;
+ }

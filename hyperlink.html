@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>document</title>
+    </head>
+    <body>
+        <a href="https://www.naver.com/" target="_blank">네이버</a>
+        <!-- _blank는 새창에 링크를 연결 -->
+        <br>
+        <a href="https://www.naver.com/" target="_parent">네이버</a>
+        <!-- _parent는 iframe이 여러개일때 바로 상위의 html을 가져옴 -->
+        <br>
+        <a href="https://www.naver.com/">네이버</a>
+        <br>
+        <iframe src="link2.html" frameborder="0"></iframe>
+        <!-- iframe html안에 html을 링크함, link2.html을 가져옴 -->
+        <br>
+        <a href="https://www.naver.com/" target="_top">네이버</a>
+        <!-- _top -->
+        <!-- _top여러 iframe들 중에 가장위에 있는 html을 가져옴-->
+        <br>
+        <a href="#last">last P</a>
+        <a href="#first">first P</a>
+        <!-- 북마크 표시 (북마크표시위치에 id넣고 herf에 #아이디 입력하면 이동됨 ) -->
+        <p id="first">처음후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p id="mid">후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p>후후헤헤</p>
+        <p id="last">마지막 문장입니다</p>
+        <a href="javascript:showAlert();">경고</a>
+        <button onclick="javascript:showAlert();">경고 2</button>
+        <script>
+            function showAlert(){
+                alert("경고 메시지 입니다.");
+            }
+        </script>
+    </body>
+</html>
